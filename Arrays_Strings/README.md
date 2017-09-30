@@ -1,4 +1,4 @@
-###Notes
+### Notes
 
 #### Is Unique (+)
 
@@ -18,11 +18,13 @@ Use the true length and the length of the string and iterate in reverse moving e
 Create a count hash of the string. If number of occurences of characters is odd for more than one character return false.
 
 #### One Away (+)
+
 ```
-if diff(len of strings) > 1 then return false`
-if diff(len of strings) == 0 then iterate over strings allowing only one mismatch`
-if diff(len of strings) == 1 then if characters match continue, if mismatch move in the larger string. If mismatch again return false`
+- if diff(len of strings) > 1 then return false`
+- if diff(len of strings) == 0 then iterate over strings allowing only one mismatch`
+- if diff(len of strings) == 1 then if characters match continue, if mismatch move in the larger string. If mismatch again return false`
 ```
+
 #### String Compression
 
 This is also known as [Run Length Encoding](https://en.wikipedia.org/wiki/Run-length_encoding).
